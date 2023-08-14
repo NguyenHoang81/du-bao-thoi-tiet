@@ -1,0 +1,79 @@
+.weather {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 10px -2px 20px 2px rgb( 0 0 0 / 50%); /*đổ bóng*/
+    color: #fff;
+    background-color: #043b41;
+    margin: 20px auto 0; /*lề*/
+    padding: 5px 20px 20px;/* khoảng cách nội dung lề top left right bottom*/
+}
+
+.country{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.top, .bottom, .country-city {
+    display: flex;  /*các phần tử con bên trong container sẽ tự động được căn chỉnh và sắp xếp theo chiều ngang*/
+    justify-content: space-between; /*Khi áp dụng giá trị space-between cho thuộc tính justify-content, các phần tử con sẽ được căn chỉnh sao cho khoảng cách giữa chúng là đều nhau và đồng thời kéo dài từ đầu container đến cuối container*/
+    align-items: center; /*căn chỉnh phần tử con*/
+}
+
+.city {
+    text-transform: capitalize; /**/
+    font-weight: 600;    /*Độ đậm chữ*/
+    font-size: 30px;    /**/
+    letter-spacing: 1px;  /*Độ thưa*/
+    line-height: 1;   /*Độ cao*/
+    margin: 0;
+}
+
+.motathoitiet {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+}
+
+.weather-icon {
+    width: 100px;
+}
+
+.nhietdonong {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(241, 79, 9);
+    width: auto;
+    margin: 10px 0; /*lề*/
+    letter-spacing: -2px;
+}
+.nhietdolanh {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(34, 92, 202);
+    width: auto;
+    margin: 10px 0; /*lề*/
+    letter-spacing: -2px;
+}
+
+.details {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.thedubao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thedubao-lebel {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+.thedubao-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+}

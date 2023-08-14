@@ -1,0 +1,94 @@
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+.dialy-item{
+    background: rgba(8, 156, 82, 0.2);
+    border-radius: 8px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+.dialy-item:hover{
+    background-color: rgb(15, 192, 228);
+}
+
+.icon-small{
+    width: 50px;
+}
+
+.days{
+    color: #212121;
+    flex: 1 1;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.select {
+    appearance: none; /* Ẩn giao diện mặc định của hộp chọn */
+    background-color: #f2f2f2; /* Màu nền */
+    border: 1px solid #c42e2e; /* Viền */
+    padding: 8px 12px; /* Khoảng cách giữa nội dung và viền */
+    border-radius: 4px; /* Bo góc */
+    font-size: 14px; /* Cỡ chữ */
+    color: #0b0303; /* Màu chữ */
+    box-shadow: 0 2px 4px rgba(170, 116, 116, 0.1); /* Đổ bóng */
+  }
+  
+.select:hover {
+    border-color: #0327f5; /* Màu viền khi di chuột vào */
+}
+.mota{
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.max{
+    color: #db0c0c;
+    font-weight: 700;    /*Độ đậm chữ*/
+}
+.min{
+    color:rgb(43, 0, 255);
+    font-weight: 700;    /*Độ đậm chữ*/
+}
+
+.griddaily{
+    grid-row-gap: 0;
+    row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 20px;
+}
+
+.itemdaily{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.dialyday{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.itemdaily label:first-child{
+    color: #080505;
+    
+}
+
+.itemdaily label:last-child{
+    color: #212121;
+}/*để định dạng hoặc tùy chỉnh phong cách cho phần tử cuối cùng trong một nhóm phần tử cụ th*/

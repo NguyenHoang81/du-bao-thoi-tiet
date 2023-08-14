@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: auto;
+  background: url(../public/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+.weatherSection {
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 4px 6px 6px 7px rgb(0 0 0 / 10%);
+  color: #fff;
+  margin: 20px;
+  height: max-content;
+  background: rgba(0, 0, 0, 0.1);
+  border: solid 2px #ffff;
+  padding: 0;
+}
+.itmay 
+{
+  background: url(../public/itmay.jpg) no-repeat center/cover;
+}
+.nhieumay 
+{
+  background: url(../public/nhieumay.jpg) no-repeat center/cover;
+}
+.suongmu
+ {
+  background: url(../public/suongmu.jpg) no-repeat center/cover;
+}
+.troigiong 
+{
+  background: url(../public/troigiong.jpg) no-repeat center/cover;
+}
+.troimua 
+{
+  background: url(../public/troimua.jpg) no-repeat center/cover;
+}
+.troinang
+{
+  background: url(../public/troinang.jpg) no-repeat center/cover;
+}
+.tuyetroi 
+{
+  background: url(../public/tuyetroi.jpg) no-repeat center/cover;
+}
+.uam 
+{
+  background: url(../public/uam.jpg) no-repeat center/cover;
+}
+.muanang
+{
+  background: url(../public/muanang.jpg) no-repeat center/cover;
+}

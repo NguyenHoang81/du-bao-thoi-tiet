@@ -1,0 +1,33 @@
+.container{
+  max-width: 1080px;
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: solid 2px #ffff;
+  background-color: #f8f8f8d2;
+  opacity: 0.95;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search1{
+    max-width: 1080px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.location-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #e00c0c;
+  padding: 0;
+  margin-left: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.location-icon:hover {
+  color: #270ffd;
+}
