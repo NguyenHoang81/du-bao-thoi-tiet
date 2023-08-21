@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/du-bao-thoi-tiet/static/css/main.90a66149.css",
+    "main.js": "/du-bao-thoi-tiet/static/js/main.1084d6e9.js",
+    "static/js/787.4fcd6212.chunk.js": "/du-bao-thoi-tiet/static/js/787.4fcd6212.chunk.js",
+    "static/media/troimua.jpg": "/du-bao-thoi-tiet/static/media/troimua.ae9e8c6242566d11bf4d.jpg",
+    "static/media/troinang.jpg": "/du-bao-thoi-tiet/static/media/troinang.a65e444f2635b8eee541.jpg",
+    "static/media/tuyetroi.jpg": "/du-bao-thoi-tiet/static/media/tuyetroi.399d9b57c762a41c129c.jpg",
+    "static/media/background.jpg": "/du-bao-thoi-tiet/static/media/background.82b1256d83cd3ef8a0c6.jpg",
+    "static/media/troigiong.jpg": "/du-bao-thoi-tiet/static/media/troigiong.4c4974480ce52c095f21.jpg",
+    "static/media/itmay.jpg": "/du-bao-thoi-tiet/static/media/itmay.e6582c4f8acb0c1da483.jpg",
+    "static/media/suongmu.jpg": "/du-bao-thoi-tiet/static/media/suongmu.ee6a050c230c4b20789c.jpg",
+    "static/media/nhieumay.jpg": "/du-bao-thoi-tiet/static/media/nhieumay.bfb23dce16c667cc3be9.jpg",
+    "static/media/muanang.jpg": "/du-bao-thoi-tiet/static/media/muanang.530f386d16c4439bc6df.jpg",
+    "static/media/uam.jpg": "/du-bao-thoi-tiet/static/media/uam.aaee41329692d087b80b.jpg",
+    "index.html": "/du-bao-thoi-tiet/index.html",
+    "main.90a66149.css.map": "/du-bao-thoi-tiet/static/css/main.90a66149.css.map",
+    "main.1084d6e9.js.map": "/du-bao-thoi-tiet/static/js/main.1084d6e9.js.map",
+    "787.4fcd6212.chunk.js.map": "/du-bao-thoi-tiet/static/js/787.4fcd6212.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90a66149.css",
+    "static/js/main.1084d6e9.js"
+  ]
+}
